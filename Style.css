@@ -56,7 +56,7 @@ nav, li, a:hover{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-weight: lighter;
-    background-image: url(Asset/dummyPerson.jpg);
+    background-image: url(Asset/website\ background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
