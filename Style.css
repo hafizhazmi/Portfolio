@@ -1,0 +1,124 @@
+:root{
+    --primary-color: #1c1c1c;
+    --secondary-color: #ffffff;
+    --tertiary-color: #f0e78e;
+    --quaternary-color: #a8a8a8;
+    --quinary-color: #ffd900;
+    --6-color : #000;
+}
+
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+
+}
+.nav-ul{
+color: var(--secondary-color);
+display: flex;
+flex-direction: row;
+gap: 50px;
+list-style: none;
+font-weight: bold;
+padding: 0;
+
+}
+
+nav, li, a{
+    color:var(--secondary-color);
+    text-decoration: none;
+}
+nav, li, a:hover{
+    color:var(--quinary-color);
+    text-decoration: none;
+}
+
+.Main{
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: lighter;
+    background-image: url(Asset/dummyPerson.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    
+
+}
+
+.Main-Wording {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    padding: 0px ;
+    margin-top: 200px;
+    letter-spacing: 5px;
+}
+
+p{
+    margin: 0px;
+}
+
+.Main-Name {
+    font-weight: bold;
+}
+
+.About{
+    padding: 50px;
+    background-color: var(--6-color);
+}
+
+.About-Content{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.resume-button {
+    background-color: var(--quinary-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.resume-button:hover {
+    background-color: var(--tertiary-color);
+}
