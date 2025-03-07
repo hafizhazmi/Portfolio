@@ -104,6 +104,13 @@ p{
     align-items: center;
 }
 
+.About-Content, h1{
+    font-size: xx-large;
+}
+.About-Content, p{
+    font-size: larger;
+}
+
 .resume-button {
     background-color: var(--quinary-color);
     border: none;
