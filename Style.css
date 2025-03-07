@@ -104,10 +104,10 @@ p{
     align-items: center;
 }
 
-.About-Content, h1{
+.About-Content-title{
     font-size: xx-large;
 }
-.About-Content, p{
+.About-Content-story{
     font-size: larger;
 }
 
