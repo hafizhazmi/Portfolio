@@ -132,6 +132,10 @@ p{
     background-color: var(--tertiary-color);
 }
 
+.Project{
+    background-color: #000;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
