@@ -141,6 +141,15 @@ p{
     justify-content: center;
 }
 
+.Project-MyProject{
+    font-size: xx-large;
+}
+
+.Project-Title{
+    color: #ffffff;
+    font-size: larger;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
