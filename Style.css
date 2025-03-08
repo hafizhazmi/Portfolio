@@ -131,3 +131,13 @@ p{
 .resume-button:hover {
     background-color: var(--tertiary-color);
 }
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none
+}
